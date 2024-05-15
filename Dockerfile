@@ -9,4 +9,7 @@ RUN npm install
 #RUN echo "SESSION_SECRET=abc123" > .env
 RUN npm run build
 
+# port
+EXPOSE 48787
+
 CMD npm start
